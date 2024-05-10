@@ -3,7 +3,7 @@ from typing import Iterable, List, Optional, Type, Union
 
 from transformers import GenerationConfig, PreTrainedTokenizer
 
-import vllm
+from vllm import vllm
 from vllm.config import (CacheConfig, DecodingConfig, DeviceConfig, LoadConfig,
                          LoRAConfig, ModelConfig, ParallelConfig,
                          SchedulerConfig, SpeculativeConfig,
