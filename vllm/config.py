@@ -1,3 +1,4 @@
+VLLM_USE_MODELSCOPE=False
 import enum
 import json
 from dataclasses import dataclass, field, fields
